@@ -1,0 +1,22 @@
+# Dependencias
+node_modules/
+
+# Entorno
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+coverage/
+*.tsbuildinfo
+
+# Cliente Prisma generado (se genera con `npm run prisma:generate`)
+/src/generated/prisma
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
